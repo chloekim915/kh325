@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>사용자 입력정보 - Post</title>
+</head>
+<body>
+	<h1>사용자 입력정보 Post방식 테스트!</h1>
+	<form action="../method.do" method="post" >
+		<label>이름 : <input type="text" name="name" size=10> </label> <br>
+		<label>나이 : <input type="text" name="age" size=10> </label>  <br>
+		<label><input type="radio" name="gender" value="남자"> 남자 </label>  
+		<label><input type="radio" name="gender" value="여자"> 여자 </label>  <br>
+		<label>키 : <input type="range" name="height" min="120" max="200"> </label> <br>
+		<label>좋아하는 음식 : </label> <br>
+		<label><input type="checkbox" name="food" value="한식"> 한식 </label> 
+		<label><input type="checkbox" name="food" value="중식"> 중식 </label> 
+		<label><input type="checkbox" name="food" value="일식"> 일식 </label> 
+		<label><input type="checkbox" name="food" value="양식"> 양식 </label> 
+		<br><br><br>
+		<input type="submit" value="전송">
+		<input type="reset" value="리셋">
+	</form>
+</body>
+</html>
